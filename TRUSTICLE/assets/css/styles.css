@@ -75,7 +75,7 @@ body {
 
 .main-content {
   flex: 1;
-  margin-left: 180px;
+  margin-left: 10px;
   padding: 20px;
   width: calc(100% - 180px);
   transition: margin-left 0.3s ease, width 0.3s ease;
