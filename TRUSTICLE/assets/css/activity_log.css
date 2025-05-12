@@ -1,0 +1,20 @@
+/* Activity Log specific styles - uses common styles from styles.css */
+
+/* Activity Log specific action bar */
+.activity-action-bar {
+  background-color: rgba(226, 218, 200, 0.4);
+  border-radius: 8px;
+  padding: 15px;
+}
+
+/* Any specific overrides for activity log tables */
+.activity-table th {
+  font-weight: 700;
+}
+
+.activity-log-details {
+  font-size: 13px;
+  color: #666;
+  display: block;
+  margin-top: 3px;
+}
