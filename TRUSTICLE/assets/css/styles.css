@@ -133,7 +133,7 @@ body {
 }
 
 .logo-container {
-  padding: 25px 15px;
+  padding: 20px 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,10 +145,22 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.logo-container div {
+/* Logo styles */
+.logo {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  width: 100%;
+}
+
+.sidebar-logo {
+  max-width: 100%;
+  max-height: 60px;
+  transition: all 0.3s ease;
+}
+
+.sidebar.collapsed .sidebar-logo {
+  max-height: 40px;
 }
 
 .logo-text {
@@ -370,7 +382,7 @@ body {
 }
 
 .search-icon {
-  background-color: var(--accent-color);
+  background-color: var(--primary-color);
   color: white;
   padding: 9px 15px;
   border: none;
@@ -399,22 +411,22 @@ body {
 }
 
 .btn-primary {
-  background-color: var(--accent-color);
+  background-color: var(--primary-color);
   color: white;
 }
 
 .btn-primary:hover {
-  background-color: var(--hover-color);
+  background-color: var(--primary-color-hover);
 }
 
 .btn-outline {
-  background-color: var(--accent-color);
+  background-color: var(--primary-color);
   border: 1px solid #D2CABA;
   color: white;
 }
 
 .btn-outline:hover {
-  background-color: var(--hover-color);
+  background-color: var(--primary-color-hover);
 }
 
 .btn-real {
@@ -578,7 +590,8 @@ tr:hover {
 /* Card Colors */
 .stat-card.blue, .stat-card.users {
   border-left: 4px solid var(--blue);
-} 
+}
+
 .stat-card.blue .stat-icon, .stat-card.users .stat-card-icon {
   color: var(--blue);
   background-color: rgba(33, 150, 243, 0.1);
@@ -586,7 +599,8 @@ tr:hover {
 
 .stat-card.yellow, .stat-card.submitted {
   border-left: 4px solid var(--yellow);
-} 
+}
+
 .stat-card.yellow .stat-icon, .stat-card.submitted .stat-card-icon {
   color: var(--yellow);
   background-color: rgba(255, 193, 7, 0.1);
@@ -594,7 +608,8 @@ tr:hover {
 
 .stat-card.green, .stat-card.approved {
   border-left: 4px solid var(--green);
-} 
+}
+
 .stat-card.green .stat-icon, .stat-card.approved .stat-card-icon {
   color: var(--green);
   background-color: rgba(76, 175, 80, 0.1);
@@ -602,7 +617,8 @@ tr:hover {
 
 .stat-card.red, .stat-card.pending {
   border-left: 4px solid var(--red);
-} 
+}
+
 .stat-card.red .stat-icon, .stat-card.pending .stat-card-icon {
   color: var(--red);
   background-color: rgba(244, 67, 54, 0.1);
@@ -737,7 +753,7 @@ tr:hover {
 }
 
 .filter-container:hover .btn {
-  background-color: var(--hover-color);
+  background-color: var(--primary-color-hover);
 }
 
 .filter-dropdown {
@@ -807,7 +823,7 @@ tr:hover {
 
 /* Ensure tab dropdown button has consistent hover effect */
 .tab-dropdown-container .btn:hover {
-  background-color: var(--hover-color);
+  background-color: var(--primary-color-hover);
 }
 
 .tab-dropdown-menu {
@@ -825,8 +841,8 @@ tr:hover {
 }
 
 .tab-dropdown-menu.show {
-  display: block;
- }
+  display: block; 
+}
 
 .tab-dropdown-item {
   padding: 10px 15px;

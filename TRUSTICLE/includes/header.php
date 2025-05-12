@@ -36,9 +36,8 @@
     <!-- Sidebar -->
     <div class="sidebar" id="sidebar">
         <div class="logo-container" id="toggleSidebar">
-            <div>
-                <i class="fas fa-feather-alt fa-2x"></i>
-                <div class="logo-text">Trusticle</div>
+            <div class="logo">
+                <img src="../assets/images/logo.png" alt="Trusticle Logo" class="sidebar-logo">
             </div>
         </div>
         

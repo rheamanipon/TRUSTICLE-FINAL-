@@ -79,7 +79,7 @@
                             <td>Jansdale Yusi</td>
                             <td>Sports</td>
                             <td>01/24/2025</td>
-                            <td><a href="https://youtu.be/PJRVxGQJYGc?si=MMlXcYW_hQZNVQc-" class="url-btn">https://missu.com</a></td>
+                            <td><a href="#" class="url-btn">https://missu.com</a></td>
                             <td>Real</td>
                             <td class="status-real">Real</td>
                             <td><a href="#" class="view-btn" data-id="1"><i class="fas fa-eye"></i></a></td>
