@@ -24,13 +24,13 @@ $(document).ready(function() {
                 
                 // Line 1 - number
                 ctx.fillStyle = '#333';
-                ctx.font = 'bold 24px Arial';
-                ctx.fillText('99', centerX, centerY - 10);
+                ctx.font = 'bold 40px Arial';
+                ctx.fillText('100', centerX, centerY - 30);
                 
                 // Line 2 - text
                 ctx.fillStyle = '#777';
                 ctx.font = '14px Arial';
-                ctx.fillText('Articles', centerX, centerY + 15);
+                ctx.fillText('Articles', centerX, centerY + 7);
                 
                 ctx.save();
             }
