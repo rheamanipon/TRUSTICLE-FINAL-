@@ -1,5 +1,22 @@
 /* Article specific styles - uses common styles from styles.css */
 
+/* View button (eye icon) styling */
+.view-btn {
+  color: var(--primary-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+
+.view-btn:hover {
+  color: var(--primary-color-hover);
+}
+
+.view-btn i {
+  font-size: 16px;
+}
+
 /* Article View Modal */
 .article-view-modal {
   display: none;

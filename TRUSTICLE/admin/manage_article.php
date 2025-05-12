@@ -68,10 +68,10 @@
                             <td>Regina Manipon</td>
                             <td>Health</td>
                             <td>01/24/2025</td>
-                            <td><a href="#" class="url-btn">link</a></td>
+                            <td><a href="#" class="url-btn">url</a></td>
                             <td>Real</td>
                             <td class="status-pending">Pending</td>
-                            <td><a href="#" class="view-btn" data-id="0">View</a></td>
+                            <td><a href="#" class="view-btn" data-id="0"><i class="fas fa-eye"></i></a></td>
                         </tr>
                         <tr>
                             <td>1</td>
@@ -79,10 +79,10 @@
                             <td>Jansdale Yusi</td>
                             <td>Sports</td>
                             <td>01/24/2025</td>
-                            <td><a href="#" class="url-btn">link</a></td>
+                            <td><a href="https://youtu.be/PJRVxGQJYGc?si=MMlXcYW_hQZNVQc-" class="url-btn">https://missu.com</a></td>
                             <td>Real</td>
                             <td class="status-real">Real</td>
-                            <td><a href="#" class="view-btn" data-id="1">View</a></td>
+                            <td><a href="#" class="view-btn" data-id="1"><i class="fas fa-eye"></i></a></td>
                         </tr>
                         <tr>
                             <td>2</td>
@@ -90,10 +90,10 @@
                             <td>Regie Manipon</td>
                             <td>Sports</td>
                             <td>01/24/2025</td>
-                            <td><a href="#" class="url-btn">link</a></td>
+                            <td><a href="#" class="url-btn">url</a></td>
                             <td>Fake</td>
                             <td class="status-fake">Fake</td>
-                            <td><a href="#" class="view-btn" data-id="2">View</a></td>
+                            <td><a href="#" class="view-btn" data-id="2"><i class="fas fa-eye"></i></a></td>
                         </tr>
                         <tr>
                             <td>3</td>
@@ -101,10 +101,10 @@
                             <td>Rikki Garcia</td>
                             <td>Politics</td>
                             <td>01/24/2025</td>
-                            <td><a href="#" class="url-btn">link</a></td>
+                            <td><a href="#" class="url-btn">url</a></td>
                             <td>Real</td>
                             <td class="status-pending">Pending</td>
-                            <td><a href="#" class="view-btn" data-id="3">View</a></td>
+                            <td><a href="#" class="view-btn" data-id="3"><i class="fas fa-eye"></i></a></td>
                         </tr>
                         <tr>
                             <td>4</td>
@@ -112,10 +112,10 @@
                             <td>Jackie Manipon</td>
                             <td>Education</td>
                             <td>01/24/2025</td>
-                            <td><a href="#" class="url-btn">link</a></td>
+                            <td><a href="#" class="url-btn">url</a></td>
                             <td>Fake</td>
                             <td class="status-pending">Pending</td>
-                            <td><a href="#" class="view-btn" data-id="4">View</a></td>
+                            <td><a href="#" class="view-btn" data-id="4"><i class="fas fa-eye"></i></a></td>
                         </tr>
                         <tr>
                             <td>5</td>
@@ -123,10 +123,10 @@
                             <td>Lovely Punto</td>
                             <td>Technology</td>
                             <td>01/24/2025</td>
-                            <td><a href="#" class="url-btn">link</a></td>
+                            <td><a href="#" class="url-btn">url</a></td>
                             <td>Fake</td>
                             <td class="status-fake">Fake</td>
-                            <td><a href="#" class="view-btn" data-id="5">View</a></td>
+                            <td><a href="#" class="view-btn" data-id="5"><i class="fas fa-eye"></i></a></td>
                         </tr>
                         <tr>
                             <td>6</td>
@@ -134,10 +134,10 @@
                             <td>Josh Viray</td>
                             <td>Entertainment</td>
                             <td>01/24/2025</td>
-                            <td><a href="#" class="url-btn">link</a></td>
+                            <td><a href="#" class="url-btn">url</a></td>
                             <td>Real</td>
                             <td class="status-real">Real</td>
-                            <td><a href="#" class="view-btn" data-id="6">View</a></td>
+                            <td><a href="#" class="view-btn" data-id="6"><i class="fas fa-eye"></i></a></td>
                         </tr>
                         <tr>
                             <td>7</td>
@@ -145,10 +145,10 @@
                             <td>Ani Garcia</td>
                             <td>Travel</td>
                             <td>01/24/2025</td>
-                            <td><a href="#" class="url-btn">link</a></td>
+                            <td><a href="#" class="url-btn">url</a></td>
                             <td>Fake</td>
                             <td class="status-pending">Pending</td>
-                            <td><a href="#" class="view-btn" data-id="7">View</a></td>
+                            <td><a href="#" class="view-btn" data-id="7"><i class="fas fa-eye"></i></a></td>
                         </tr>
                         <tr>
                             <td>8</td>
@@ -156,10 +156,10 @@
                             <td>Reiner Manalang</td>
                             <td>Culture</td>
                             <td>01/24/2025</td>
-                            <td><a href="#" class="url-btn">link</a></td>
+                            <td><a href="#" class="url-btn">url</a></td>
                             <td>Fake</td>
                             <td class="status-pending">Pending</td>
-                            <td><a href="#" class="view-btn" data-id="8">View</a></td>
+                            <td><a href="#" class="view-btn" data-id="8"><i class="fas fa-eye"></i></a></td>
                         </tr>
                     </tbody>
                 </table>
