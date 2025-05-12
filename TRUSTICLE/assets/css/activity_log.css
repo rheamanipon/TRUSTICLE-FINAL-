@@ -1,12 +1,5 @@
 /* Activity Log specific styles - uses common styles from styles.css */
 
-/* Activity Log specific action bar */
-.activity-action-bar {
-  background-color: rgba(226, 218, 200, 0.4);
-  border-radius: 8px;
-  padding: 15px;
-}
-
 /* Any specific overrides for activity log tables */
 .activity-table th {
   font-weight: 700;
@@ -17,4 +10,23 @@
   color: #666;
   display: block;
   margin-top: 3px;
+}
+
+/* Role badge styles for activity log - using the same style as user management */
+.role-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.role-admin {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.role-user {
+  background-color: #D2CABA;
+  color: #49463b;
 }

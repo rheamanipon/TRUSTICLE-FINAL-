@@ -1,4 +1,4 @@
-/* 
+/*
  * Common Styles CSS
  * This file contains all shared styles across the application
  */
@@ -578,7 +578,7 @@ tr:hover {
 /* Card Colors */
 .stat-card.blue, .stat-card.users {
   border-left: 4px solid var(--blue);
-}
+} 
 .stat-card.blue .stat-icon, .stat-card.users .stat-card-icon {
   color: var(--blue);
   background-color: rgba(33, 150, 243, 0.1);
@@ -586,7 +586,7 @@ tr:hover {
 
 .stat-card.yellow, .stat-card.submitted {
   border-left: 4px solid var(--yellow);
-}
+} 
 .stat-card.yellow .stat-icon, .stat-card.submitted .stat-card-icon {
   color: var(--yellow);
   background-color: rgba(255, 193, 7, 0.1);
@@ -594,7 +594,7 @@ tr:hover {
 
 .stat-card.green, .stat-card.approved {
   border-left: 4px solid var(--green);
-}
+} 
 .stat-card.green .stat-icon, .stat-card.approved .stat-card-icon {
   color: var(--green);
   background-color: rgba(76, 175, 80, 0.1);
@@ -602,7 +602,7 @@ tr:hover {
 
 .stat-card.red, .stat-card.pending {
   border-left: 4px solid var(--red);
-}
+} 
 .stat-card.red .stat-icon, .stat-card.pending .stat-card-icon {
   color: var(--red);
   background-color: rgba(244, 67, 54, 0.1);
@@ -826,8 +826,7 @@ tr:hover {
 
 .tab-dropdown-menu.show {
   display: block;
-
-}
+ }
 
 .tab-dropdown-item {
   padding: 10px 15px;
@@ -844,7 +843,7 @@ tr:hover {
   .stats-grid, .stat-cards-container {
     grid-template-columns: repeat(2, 1fr);
   }
-    
+  
   .chart-grid {
     grid-template-columns: 1fr;
   }
@@ -854,39 +853,39 @@ tr:hover {
   .stats-grid, .stat-cards-container {
     grid-template-columns: 1fr;
   }
-    
+  
   .content-area, .main-content {
     margin-left: 60px;
   }
-    
+  
   .sidebar.collapsed + .content-area,
   .sidebar.collapsed + .main-content {
     margin-left: 0;
   }
-    
+  
   .action-bar {
     flex-direction: column;
     align-items: stretch;
   }
-    
+  
   .search-container {
     width: 100%;
     max-width: 100%;
     margin-bottom: 15px;
   }
-    
+  
   .actions-container {
     justify-content: flex-end;
   }
-    
+  
   .table-container {
     overflow-x: auto;
   }
-    
+  
   table {
     min-width: 600px;
   }
-    
+  
   .form-row {
     flex-direction: column;
     gap: 0;
@@ -897,21 +896,21 @@ tr:hover {
   .content-area, .main-content {
     padding: 15px;
   }
-    
+  
   .stat-card, .chart-card {
     padding: 15px;
   }
-    
+  
   .actions-container {
     flex-direction: column;
     width: 100%;
   }
-    
+  
   .btn {
     width: 100%;
     text-align: center;
   }
-    
+  
   .pagination {
     flex-wrap: wrap;
   }
